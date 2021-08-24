@@ -126,6 +126,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="91" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Save"/>
+                                        <connections>
+                                            <segue destination="2qN-FT-p3c" kind="unwind" unwindAction="unwindFor:" id="QYl-b5-aU7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mla-Wn-vzP">
                                         <rect key="frame" x="0.0" y="61" width="91" height="48"/>
@@ -133,6 +136,9 @@
                                         <state key="normal" title="Cancel">
                                             <color key="titleColor" systemColor="systemRedColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="cancelButtonPressed" destination="hNm-nj-h4l" eventType="touchUpInside" id="s5W-sI-J6W"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -148,8 +154,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Mqa-RY-Trc"/>
+                    <connections>
+                        <outlet property="maximumValueTF" destination="xxv-Ve-Lc9" id="w7i-Qg-RCg"/>
+                        <outlet property="minimumValueTF" destination="EUa-6Q-pZB" id="KiO-3a-DF2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dt1-Qn-9Tm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="2qN-FT-p3c" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1700.0000000000002" y="93.75"/>
         </scene>

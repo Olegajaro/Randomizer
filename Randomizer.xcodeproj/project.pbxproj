@@ -13,6 +13,7 @@
 		1079D7B426D51192005B4271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1079D7B226D51192005B4271 /* Main.storyboard */; };
 		1079D7B626D51192005B4271 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1079D7B526D51192005B4271 /* Assets.xcassets */; };
 		1079D7B926D51192005B4271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1079D7B726D51192005B4271 /* LaunchScreen.storyboard */; };
+		1079D7C126D511C7005B4271 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1079D7C026D511C7005B4271 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1079D7B526D51192005B4271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1079D7B826D51192005B4271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1079D7BA26D51192005B4271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1079D7C026D511C7005B4271 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		1079D7A026D51192005B4271 = {
 			isa = PBXGroup;
 			children = (
+				1079D7C026D511C7005B4271 /* .gitignore */,
 				1079D7AB26D51192005B4271 /* Randomizer */,
 				1079D7AA26D51192005B4271 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1079D7C126D511C7005B4271 /* .gitignore in Resources */,
 				1079D7B926D51192005B4271 /* LaunchScreen.storyboard in Resources */,
 				1079D7B626D51192005B4271 /* Assets.xcassets in Resources */,
 				1079D7B426D51192005B4271 /* Main.storyboard in Resources */,
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Olegajaro.Randomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Olegajaro.Randomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

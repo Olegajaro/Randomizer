@@ -61,6 +61,9 @@
                                 <state key="normal" title="Get Result">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="getRandomNumberButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="S6x-vi-A7R"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -75,6 +78,12 @@
                             <constraint firstItem="LJK-ej-P6n" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="pOu-N8-BRY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="getRandomNumberButton" destination="xit-A6-Klz" id="Jxe-UG-4lP"/>
+                        <outlet property="maximumLabelValue" destination="ijA-De-xod" id="n2A-yr-d6r"/>
+                        <outlet property="minimumValueLabel" destination="Qsl-Mp-EMV" id="c6B-Je-tXi"/>
+                        <outlet property="randomValueLabel" destination="spl-vW-V4Z" id="noL-3k-849"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
